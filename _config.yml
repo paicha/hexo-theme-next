@@ -2,16 +2,16 @@
 menu:
   home: /
   #categories: /categories
-  #about: /about
   archives: /archives
   tags: /tags
+  about: /about
   #commonweal: /404.html
 
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo,next"
+keywords: "排插仔,博客,程序员,前端,后端,互联网"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -37,14 +37,14 @@ mathjax:
 
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 # Sidebar, available value:
 #  - post    expand on posts automatically. Default.
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
-sidebar: post
+#sidebar: post
 #sidebar: always
 #sidebar: hide
 
@@ -69,15 +69,15 @@ use_font_lato: true
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
+  ua_enable: false
+  admin_enable: true
+  user_id: 228964
 
 ## DO NOT EDIT THE FOLLOWING SETTINGS
 ## UNLESS YOU KNOW WHAT YOU ARE DOING
 
 # Use velocity to animate everything.
-use_motion: true
+use_motion: false
 
 # Fancybox
 fancybox: true
