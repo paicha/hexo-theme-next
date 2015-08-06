@@ -3,6 +3,7 @@
 <head>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
+  {% include '_scripts/analytics.swig' %}
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ config.language }}">
@@ -94,6 +95,5 @@
       });
     });
   </script>
-  {% include '_scripts/analytics.swig' %}
 </body>
 </html>
